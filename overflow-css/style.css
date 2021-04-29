@@ -1,0 +1,27 @@
+
+/* jenis nilai pada overflow
+    visible- Default. Luapan tidak terpotong. Konten dirender di luar kotak elemen
+    hidden - Overflow terpotong, dan konten lainnya tidak akan terlihat
+    scroll - Overflow terpotong, dan scrollbar ditambahkan untuk melihat konten lainnya
+    auto- Mirip dengan scroll, tetapi menambahkan scrollbar hanya jika diperlukan
+*/
+
+/*overflow x dan y
+overflow-x
+->menentukan apa yang harus dilakukan dengan tepi kiri / 
+  kanan konten.
+overflow-y
+->menentukan apa yang harus dilakukan dengan tepi atas /
+  bawah konten.
+*/
+
+.overflow{
+	height:200px;
+	width:400px;
+	background-color:lightgreen;
+	overflow-y:scroll;
+	padding:12px;
+}
+
+
+

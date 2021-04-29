@@ -1,0 +1,77 @@
+/* BORDER SYTLE IN CSS
+.dotted {border-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.double {border-style: double;}
+.groove {border-style: groove;}
+.ridge {border-style: ridge;}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}
+.mix {border-style: dotted dashed solid double;}
+*/
+
+.border {
+	border:5px solid red;
+	border-radius:2em;
+	width:20%;
+	text-align:center;
+	margin:200px auto;
+
+}
+
+/* untuk menentukan style pada setiap sisi yang berbeda
+p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+*/
+
+/* border dengan posisi yang disederhanakan
+If the border-style property has four values:
+
+    border-style: dotted solid double dashed;
+        top border is dotted
+        right border is solid
+        bottom border is double
+        left border is dashed
+
+If the border-style property has three values:
+
+    border-style: dotted solid double;
+        top border is dotted
+        right and left borders are solid
+        bottom border is double
+
+If the border-style property has two values:
+
+    border-style: dotted solid;
+        top and bottom borders are dotted
+        right and left borders are solid
+
+If the border-style property has one value:
+
+    border-style: dotted;
+        all four borders are dotted
+*/
+
+
+/*border radius
+border-radius:x;
+semakin besar nilai x maka border semakin mendekati bentuk lingkaran / oval / bulat
+border-top-right-radius:x;
+border-top-left-radius:x;
+border-bottom-right-radius:x;
+border-bottom-left-radius:x;
+border-radius:<tl> <tr> <br> <bl>;
+*/
+
+
+
+
+
+
+

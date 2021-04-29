@@ -1,0 +1,21 @@
+ /*
+ jika tag menggunakan properties max width maka jika lebar jendela lebih
+ kecil dari lebar yang telah ditentukan. maka lebar tag akan mengikuti 
+ lebar dari jendela browser
+ gunakan max-width:value;
+ */
+
+
+ * {
+ 	margin:0;
+ 	box-sizing:border-box;
+ 	width:100%;
+ }
+
+.first{
+	max-width:800px;
+	height:500px;
+	border:3px solid black;
+	margin:200px auto;
+	word-spacing:20px;
+}

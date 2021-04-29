@@ -1,0 +1,7 @@
+body {
+	background: /*<bisa warna gambar juga*/url(../../html/background-gambar/jalan-hutan.png) no-repeat fixed;
+/*	background-repeat:no-repeat;
+	background-attachment:fixed;*/
+	background-size:100% 100%;
+}
+

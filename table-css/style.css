@@ -1,0 +1,37 @@
+
+/*
+<div style="overflow-x:auto;">
+	<table>
+	... table content ...
+	</table>
+</div> 
+*/
+
+/*belang 
+<.class/#id> <tr:nth-child(even)><{background-color: #f2f2f2;}>
+*/
+#costumer {
+	border:2px solid lightgrey;
+	font-size:200%;
+	width:1000px;
+	border-collapse:collapse;
+}
+
+#costumer td,#costumer th,#costumer tr{
+	border:2px solid lightgrey;
+	padding:20px;
+	height:70px;
+	text-align:center;
+}
+
+#costumer th {
+	background-color:#4CAF50;
+	text-transform:uppercase;
+	color:white;
+}
+
+#costumer tr:hover{
+	background-color:lightgrey;
+}
+
+

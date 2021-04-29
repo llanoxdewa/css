@@ -1,0 +1,61 @@
+/*font family pada css
+
+Font serif memiliki guratan kecil di tepi setiap huruf. Mereka menciptakan rasa formalitas dan keanggunan.
+Font Sans-serif memiliki garis yang bersih (tidak ada goresan kecil yang terpasang). Mereka menciptakan tampilan modern dan minimalis.
+Font monospace - di sini semua huruf memiliki lebar tetap yang sama. Mereka menciptakan tampilan mekanis. 
+Font cursive meniru tulisan tangan manusia.
+Font fantasy adalah font dekoratif / lucu
+
+daftar font aman untuk html dan css{
+	Arial (sans-serif)
+    Verdana (sans-serif)
+    Helvetica (sans-serif)
+    Tahoma (sans-serif)
+    Trebuchet MS (sans-serif)
+    Times New Roman (serif)
+    Georgia (serif)
+    Garamond (serif)
+    Courier New (monospace)
+    Brush Script MT (cursive)
+}
+
+*/
+
+/*satuan besar dalam font-size 
+vw
+	Area pandang adalah ukuran jendela browser. 
+	1vw = 1% dari lebar viewport. Jika viewport memiliki lebar 50cm, 1vw adalah 0,5cm.
+em 
+	2.5 em = 30px
+*/
+
+/*google font
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+font-effect-fire pada google-font
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+*/
+
+/*shorcut penulisan font pada css
+font:<size> <sytle>
+font:<font-style> <font-weight> <size>/<font height> <font-family>*/
+
+
+h1 {
+	text-transform:uppercase;
+	text-align:center;
+	text-decoration:underline;
+	text-shadow:2px 2px 50px rgb(237,104,33);
+	margin-bottom:2em;
+	font-size:5vw;
+	color:rgb(245,245,29);
+}
+
+p {
+	font:;
+	font-weight:bold;
+	letter-spacing:2px;
+	word-spacing:3px;
+	text-indent:10px;
+}
+
+

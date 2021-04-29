@@ -1,0 +1,46 @@
+/*display inline dan block
+display inline akan menampilkan elemen pada satu garis yang sama 
+display block akan menampilkan elemen pada garis yang berbeda atau semacam \n
+*/
+
+/*menyembunyikan tampilan di css
+1.h1.hidden {
+  display: none;
+}
+2.h1.hidden {
+  visibility: hidden;
+}
+*/
+
+
+p {
+	font-size:20px;
+	font-style:fantasy;
+	letter-spacing:3px;
+	word-spacing:3px;
+	text-align:justify;
+}
+
+button {
+	border:none;
+	background-color:lightgreen;
+	padding:4px;
+	color:white;
+}
+
+button:hover{
+	background-color:grey;
+}
+
+button:active{
+	background-color:white;
+}
+
+.but{
+	margin-left:350px;
+	margin-bottom:50px;
+	margin-top:20px;
+}
+
+
+

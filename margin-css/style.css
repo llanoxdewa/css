@@ -1,0 +1,50 @@
+/* posisi pada margin
+    margin-top (auto - the browser calculates the margin)
+    margin-right (length - specifies a margin in px, pt, cm, etc.)
+    margin-bottom (% - specifies a margin in % of the width of the containing element)
+    margin-left (inherit - specifies that the margin should be inherited from the parent element)
+	margin:inherit; (akan mewariskan lebar margin dari celas induk)
+
+*/
+
+/*nilai margin
+	margin:auto; (auto - the browser calculates the margin)
+    margin:lenth;(length - specifies a margin in px, pt, cm, etc.)
+    margin:%%;(% - specifies a margin in % of the width of the containing element)
+    margin:inherit;(inherit - specifies that the margin should be inherited from the parent element)
+	(akan mewariskan lebar margin dari celas induk)
+*/
+
+/* shorhand
+    margin: 25px 50px 75px 100px;
+        top margin is 25px
+        right margin is 50px
+        bottom margin is 75px
+        left margin is 100px
+
+
+    margin: 25px 50px 75px;
+        top margin is 25px
+        right and left margins are 50px
+        bottom margin is 75px
+
+
+    margin: 25px 50px;
+        top and bottom margins are 25px
+        right and left margins are 50px
+
+
+*/
+
+
+.coba {
+	border:2px solid black;
+	border-radius:4em;
+	width:200px;
+	height:100px;
+	margin:auto;
+}
+
+
+
+

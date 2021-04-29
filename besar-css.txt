@@ -1,0 +1,15 @@
+website untuk menghitung berat properti pada css
+--> http://specificity.keegan.st
+
+inline  id  class  element
+   0     0    0       0 
+   0	 1    0       2  		
+   0     0    1       0    
+
+setiap ada element yang ditambah satu
+
+
+
+
+
+

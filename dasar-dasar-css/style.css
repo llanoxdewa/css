@@ -1,0 +1,16 @@
+/* struktur dasar css
+selector {
+	property : nilai;
+}
+*/
+
+
+
+.title-header {
+	background-color:rgba(250,0,250,20%);
+	width:100%;
+	height:100px;
+	text-align:center;
+	font-size:2em;
+	margin:180px auto;
+}

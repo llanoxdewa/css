@@ -1,0 +1,26 @@
+/*
+class yang akan bekerja pada kondisi terterntu saja
+:hover;
+:activate;
+:link; (default)
+:visited;
+
+:first-child;
+:last-child;
+:nth-child(even/odd/5/2n);
+:first-of-type; (tag pertama di html)
+:last-of-type;  (tag terakhir di html)
+*/
+
+
+a:hover {
+    background-color:black;
+}
+
+a:visited {
+    color:green;
+}
+
+li:nth-child(odd) a{
+    color:red;
+}

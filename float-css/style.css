@@ -1,0 +1,133 @@
+/*The floatproperti digunakan untuk penentuan posisi dan format konten
+misalnya membiarkan mengambang gambar kiri ke teks dalam sebuah wadah.*/
+
+/*value pada properti float
+    left - Elemen mengapung di sebelah kiri wadahnya
+    right - Elemen mengapung di sebelah kanan wadahnya
+    none- Elemen tidak mengambang (akan ditampilkan tepat di tempat
+    	  yang muncul di teks). Ini default
+    inherit - Elemen mewarisi nilai float dari induknya
+*/
+/*properti clear
+    none->Memungkinkan elemen mengambang di kedua sisi. Ini adalah default
+    left->Elemen mengambang tidak diperbolehkan di sisi kiri
+    right->Tidak ada elemen mengambang yang diizinkan di sisi kanan
+    both->Elemen mengambang tidak diperbolehkan di sisi kiri atau kanan
+    inherit->Elemen mewarisi nilai yang jelas dari induknya
+*/
+*{
+	box-sizing: border-box;
+}
+img {
+	width:150px;
+	height:150px;
+	float:left;
+	margin-right:15px;
+}
+
+.float-kiri{
+	width:400px;
+	height:500px;
+	margin:40px auto;
+	text-align:justify;
+}
+#judul{
+	font-size:120%;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.red {
+	float:left;
+	width:100px;
+	height:20px;
+	background-color:red;
+}
+.yellow {
+	float:left;
+	width:100px;
+	height:20px;
+	background-color:yellow;
+}
+.green {
+	float:left;
+	width:100px;
+	height:20px;
+	background-color:green;
+}
+.blue {
+	float:left;
+	width:100px;
+	height:20px;
+	background-color:blue;
+}
+
+.clear{
+	width:300px;
+	height:300px;
+	margin:200px auto;
+	border:2px solid black;
+	display:table;
+	text-align:justify;
+}
+.clear img{
+	width:200px;
+	height:200px;
+	float:right;
+	margin:4px;
+	content:"";
+
+}
+
+#penengah{
+	text-align:center;
+	text-transform:uppercase;
+}
+
+
+.clearfix{
+	display:table;
+
+	padding:4px;
+	margin-left:250px;
+}
+
+.image-sejajar{
+	width:150px;
+	height:150px;
+	margin-right:10px;
+	float:left;
+}
+
+.sama-besar{
+	margin:150px auto;
+	display:flex;
+  	flex-wrap:nowrap;
+    width:100%;
+    margin-left:45px;
+    font-size:120%;
+}
+.box{
+	float:left;
+	width:45%;
+	height:200px;
+	text-align:center;
+	line-height:75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

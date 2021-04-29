@@ -1,0 +1,77 @@
+/* ada 5 jenis posisi yang ditentukan
+    static
+    -> (Elemen yang diposisikan statis tidak terpengaruh oleh
+    	properti atas, bawah, kiri, dan kanan.)
+    relative
+    -> (Menyetel properti atas, kanan, bawah, dan kiri dari elemen yang
+	    posisinya relatif akan menyebabkannya disesuaikan dari posisi awalnya
+        dan akan menyisakan ruang yang luasnya sama dengan luas awal yang telah
+        ditentukan
+    fixed
+    -> (Elemen dengan position: fixed;diposisikan relatif terhadap
+	    viewport, yang berarti elemen tersebut selalu berada di tempat yang
+	    sama meskipun halaman di-scroll. Properti atas, kanan, bawah, dan
+	    kiri digunakan untuk memposisikan elemen.)
+    absolute
+    -> (Elemen dengan position: absolute;diposisikan relatif terhadap
+	    leluhur yang diposisikan terdekat atau dia akan diposisikan relatif terhadap
+        tag pembungkusnya yang paling dekat
+    sticky
+    -> (Elemen lengket beralih antara relative dan fixed, bergantung pada
+  		posisi gulir. Ini diposisikan relatif hingga posisi offset
+  		tertentu terpenuhi di viewport - lalu "menempel" di tempatnya
+  		(seperti posisi: tetap).)
+*/
+
+/*elemen tumpang tindih
+*/
+
+.static{
+	position:static;
+	left:20px;
+}
+.relative{
+	position:relative;
+	left:20px;
+}
+.fixed{
+	position:fixed;
+	right:0;bottom:0;
+	width:200px;
+}
+
+
+.leluhur{
+	width:600px;
+	height:300px;
+	border:3px solid green;
+	position:relative;
+}
+
+.absolute{
+	font-size:60%;
+	border:2px solid green;
+	position:absolute;
+	top:100px;
+	left:40px;
+}
+.sticky{
+	position:sticky;
+	top:0;
+	border:2px solid black;
+	width:200px;
+	height:200px;
+	margin-top:20px;
+}
+
+.z-index img{
+	width:100px;
+	height:100px;
+	z-index:-1;
+	position:absolute;
+}
+.z-index{
+	width:400px;
+	height:400px;
+}
+.z-index p{display:inline;font-size:120%;}

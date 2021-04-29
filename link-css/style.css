@@ -1,0 +1,96 @@
+/* posisi dan status link di css
+    a:link - tautan normal yang belum dikunjungi
+    a:visited - tautan yang telah dikunjungi pengguna
+    a:hover - tautan saat pengguna mengarahkan mouse ke atasnya
+    a:active - tautan saat diklik*/
+
+/*catatan
+    a: hover HARUS muncul setelah: link dan: dikunjungi
+    a: aktif HARUS muncul setelah: hover
+*/
+a {
+	font-size:200%;
+	font-family:monospace;
+	text-align:center;
+
+}
+
+/*h1 {
+	text-align:center;
+}
+
+a:link{
+	color:green;
+
+}
+
+a:visited{
+	color:red;
+	text-decoration:line-through;
+}
+
+a:hover{
+	color:black;
+	text-shadow:3px 3px 10px grey;
+	text-transform:uppercase;
+}
+
+a:active {
+	color:white;
+	text-decoration:overline;
+}*/
+
+/*jenis-jenis cursor
+value = [
+	auto
+	crosshair
+	default
+	e-resize
+	help
+	move
+	n-resize
+	ne-resize
+	nw-resize
+	pointer
+	progress
+	s-resize
+	se-resize
+	sw-resize
+	text
+	w-resize
+	wait
+]
+cursor:value;
+*/
+
+button {
+	background-color:green;
+	border:5px solid black;
+	border-radius:100px;
+	margin:140px auto;
+	margin-left:200px;
+	width:200px;
+	height:200px;
+}
+
+
+p {
+	font-size:200%;
+	color:white;
+}
+
+a:link,a:visited {
+	text-decoration:none;
+	font-family:sans-serif;
+	margin-left:100px;
+	border:3px solid black;
+	background-color:green;
+	color:white;
+}
+
+a:hover {
+	background-color:white;
+	color:red;
+	text-shadow:3px 3px 10px black;
+	border-color:white;
+}

@@ -1,0 +1,125 @@
+
+body {
+  height:1000px;
+}
+
+.container{
+  width:450px;
+  height:450px;
+  border:5px solid black;
+  margin:50px auto;
+  position:relative;
+}
+
+
+.kotak1,.kotak2,.kotak3,.kotak4,.kotak5{
+  width:150px;
+  height:150px;
+  margin:auto;
+  position:;
+}
+.kotak6,.kotak7,.kotak8,.kotak9 {
+  width:150px;
+  height:150px;
+  margin:auto;
+  position:;
+}
+
+.kotak1 {background-color:lightgreen;}
+.kotak2 {
+  background-color:lightblue;
+
+
+}
+.kotak3 {
+  background-color:magenta;
+}
+
+.kotak4 {
+  background-color:yellow;
+  position:absolute;
+  top:0;
+}
+.kotak5 {
+  background-color:red;
+  position:absolute;
+  bottom:0;
+}
+.kotak6 {
+  background-color:blue;
+  position:absolute;
+  top:225px;
+  bottom:225px;
+}
+.kotak7 {
+  background-color:grey;
+  position:absolute;
+  top:0;
+  right:0;
+}
+.kotak8 {
+  background-color:purple;
+  position:absolute;
+  right:0;
+  top:225px;
+  bottom:225px;
+}
+.kotak9 {
+  background-color:tomato;
+  position:absolute;
+  right:0;
+  bottom:0;
+}
+
+
+.kotak1:hover,.kotak2:hover,.kotak3:hover{
+  background-color:transparent;
+}
+
+.kotak4:hover,.kotak5:hover,.kotak6:hover{
+  background-color:transparent;
+}
+
+.kotak7:hover,.kotak8:hover,.kotak9:hover{
+  background-color:transparent;
+}
+
+
+
+.top-bar {
+  background-color:darkblue;
+  height:40px;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:1;
+}
+
+.iklan {
+  background-color:rgba(0,0,0,50%);
+  position:fixed;
+  top:100px;
+  left:100px;
+  bottom:100px;
+  right:100px;
+}
+
+.iklan button {
+  background-color:red;
+  width:30px;
+  height:30px;
+  color:white;
+  text-align:center;
+  border:2px solid black;
+  border-radius:50%;
+  line-height:30px;
+  font-weight:bold;
+  position:absolute;
+  right:-10px;top:-10px;
+}
+
+
+
+
+

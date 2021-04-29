@@ -1,0 +1,72 @@
+/* pengertian outline
+Garis besar adalah garis yang digambar di sekitar elemen,
+DI LUAR batas, untuk membuat elemen "menonjol".
+*/
+
+/*properti pada outline
+
+    outline-style {	
+	    dotted - Mendefinisikan garis putus-putus
+	    dashed - Mendefinisikan garis putus-putus
+	    solid - Mendefinisikan garis yang solid
+	    double - Mendefinisikan garis besar ganda
+	    groove - Mendefinisikan garis beralur 3D
+	    ridge - Mendefinisikan garis bergerigi 3D
+	    inset - Mendefinisikan garis inset 3D
+	    outset - Mendefinisikan garis awal 3D
+	    none - Mendefinisikan tidak ada garis besar
+	    hidden - Mendefinisikan garis tersembunyi
+	    }
+    outline-color{
+		invert
+		rgb
+		hex
+		rgba
+    }
+    outline-width{
+	    tipis (biasanya 1px)
+	    sedang (biasanya 3px)
+	    tebal (biasanya 5px)
+	    Ukuran tertentu (dalam px, pt, cm, em, dll)
+	}
+    outline-offset
+    outline
+
+*/
+
+/*singkatan 
+ex1 {outline: dashed;}
+ex2 {outline: dotted red;}
+ex3 {outline: 5px solid yellow;}
+ex4 {outline: thick ridge pink;}
+*/
+
+/*outline-offset
+mengatur jarak outline dari batas objek
+*/
+
+
+.coba {
+	border:5px solid red;
+	outline:5px solid yellow;
+	width:inherit;
+	height:inherit;
+	outline-offset:10px;
+}
+
+
+.second {
+	width:inherit;
+	height:inherit;
+	outline:5px solid green;
+	outline-offset:30px;
+
+}
+
+.treed {
+	margin:100px auto;
+	width:400px;
+	height:300px;
+	outline:5px solid blue;
+	outline-offset:50px;
+}
